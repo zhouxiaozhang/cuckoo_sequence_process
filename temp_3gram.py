@@ -65,7 +65,7 @@ def load_label(data_prob ,label):
 
 # generate grams dictionary for one file
 #data_call_single = data_call_list[0]
-
+#n-gram 字典
 def grams_dict(index_single, N,data_index_function): 
     data_call_single = data_index_function[index_single]
     grams_string = [" ".join(data_call_single [i:i+N]) for i in range(len(data_call_single )-N+1)]
