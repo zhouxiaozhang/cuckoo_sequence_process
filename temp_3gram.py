@@ -88,6 +88,7 @@ def grams_dict_value(index_single, N,data_none_index_value):
 
 
  #add up ngram dictionaries
+ # f_labels:某一类别class的所有index 
 def reduce_dict_value(f_labels,data_none_index_value):
     result = dict()
     for f_name in f_labels:
